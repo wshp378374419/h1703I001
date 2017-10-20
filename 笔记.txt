@@ -2,3 +2,9 @@
 //返回版本命令
 git  reset --hard commitID 
 git  reset --hard HEAD   HEAD表示当前版本  HEAD^前一个  HEAD^^前两个   HEAD~100
+
+
+//项目想要保存 ，没有提交到暂存区  即没有add
+git status
+
+git checkout -- 文件  撤销
